@@ -222,23 +222,21 @@ const Icons = () => {
               fontWeight: "bold",
               //marginRight: "1.5%",
             }}
-            href="https://paint0183.netlify.app/"
+            href="https://dicegamedice.netlify.app"
             target="_blank"
           >
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "https://library.kissclipart.com/20180919/xqe/kissclipart-paint-windows-7-logo-clipart-microsoft-paint-compu-77dbca5213901db1.png"
+                  "https://i.pinimg.com/564x/af/de/55/afde550fd6fa482cfae1440875c1f510.jpg"
                 }
                 width="60px"
                 height="60px"
-                style={{ borderRadius: "15px", marginTop: "-40%" }}
+                style={{ marginTop: "-40%", borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
-            <h5 style={{ color: "white" }}>
-              MS Paint <br /> Clone
-            </h5>
+            <h5 style={{ color: "white" }}>&nbsp; Game</h5>
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <button
@@ -281,6 +279,66 @@ const Icons = () => {
               fontWeight: "bold",
               //marginRight: "1.5%",
             }}
+            href="https://github.com/aditya-ahlawat-1309/Notepad"
+            target="_blank"
+          >
+            <div style={{ flexDirection: "column" }}>
+              <img
+                src={
+                  "https://www.zdnet.de/wp-content/uploads/2013/05/java-800.jpg"
+                }
+                width="60px"
+                height="60px"
+                style={{ marginTop: "-40%", borderRadius: "15px" }}
+                class="Icons-animation"
+              />
+            </div>
+            <h5 style={{ color: "white" }}>
+              Notepad <br /> Clone
+            </h5>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            style={{
+              backgroundColor: "Transparent",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              color: "green",
+              textDecoration: "none",
+              fontWeight: "bold",
+              //marginRight: "1.5%",
+            }}
+            href="https://paint0183.netlify.app/"
+            target="_blank"
+          >
+            <div style={{ flexDirection: "column" }}>
+              <img
+                src={
+                  "https://library.kissclipart.com/20180919/xqe/kissclipart-paint-windows-7-logo-clipart-microsoft-paint-compu-77dbca5213901db1.png"
+                }
+                width="60px"
+                height="60px"
+                style={{ borderRadius: "15px", marginTop: "-40%" }}
+                class="Icons-animation"
+              />
+            </div>
+            <h5 style={{ color: "white" }}>
+              MS Paint <br /> Clone
+            </h5>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            style={{
+              backgroundColor: "Transparent",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              color: "green",
+              textDecoration: "none",
+              fontWeight: "bold",
+              //marginRight: "1.5%",
+            }}
             href="https://chatfullstack.netlify.app"
             target="_blank"
           >
@@ -291,7 +349,7 @@ const Icons = () => {
                 }
                 width="60px"
                 height="60px"
-                style={{ marginTop: "-35%",borderRadius: "15px" }}
+                style={{ marginTop: "-35%", borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
@@ -312,51 +370,23 @@ const Icons = () => {
               fontWeight: "bold",
               //marginRight: "1.5%",
             }}
-            href="https://github.com/aditya-ahlawat-1309/Notepad"
+            href="https://twitter1309.netlify.app/"
             target="_blank"
           >
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "https://www.zdnet.de/wp-content/uploads/2013/05/java-800.jpg"
+                  "https://i.pinimg.com/736x/ee/af/9c/eeaf9ce3ab22ecb3904daea1b2eab04a.jpg"
                 }
                 width="60px"
                 height="60px"
-                style={{ marginTop: "-40%",borderRadius: "15px" }}
+                style={{ marginTop: "-40%", borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
             <h5 style={{ color: "white" }}>
-              Notepad <br /> JAR App
+              &nbsp;&nbsp;Twitter <br /> &nbsp;&nbsp; Clone
             </h5>
-          </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a
-            style={{
-              backgroundColor: "Transparent",
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              color: "green",
-              textDecoration: "none",
-              fontWeight: "bold",
-              //marginRight: "1.5%",
-            }}
-            href="https://dicegamedice.netlify.app"
-            target="_blank"
-          >
-            <div style={{ flexDirection: "column" }}>
-              <img
-                src={
-                  "https://i.pinimg.com/564x/af/de/55/afde550fd6fa482cfae1440875c1f510.jpg"
-                }
-                width="60px"
-                height="60px"
-                style={{ marginTop: "-40%",borderRadius: "15px" }}
-                class="Icons-animation"
-              />
-            </div>
-            <h5 style={{ color: "white" }}>&nbsp; Game</h5>
           </a>
         </div>
       </>

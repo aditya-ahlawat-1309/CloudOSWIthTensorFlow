@@ -6,7 +6,7 @@ const DialogBox = () => {
       style={{
         zIndex: 10,
         position: "absolute",
-        background: "rgb(0, 155, 255,1)",
+        background: "rgba(0, 0, 0, 0.9)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",

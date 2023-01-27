@@ -1,33 +1,32 @@
-import React, {useState} from 'react'
-import DialogBoxFile from '../DialogBoxFile/DialogBoxFile';
+import React, { useState } from "react";
+import DialogBoxFile from "../DialogBoxFile/DialogBoxFile";
 import DialogBoxHelp from "../DialogBoxHelp/DialogBoxHelp";
 import DialogBoxEdit from "../DialogBoxEdit/DialogBoxEdit";
 
 const TopIcons = () => {
+  const [showFile, setShowFile] = useState(false);
 
-  const [showFile,setShowFile] = useState(false);
-
-const handleClickFile = () => {
-  setShowHelp(false);
-  setShowEdit(false);
-  setShowFile(!showFile);
-}
+  const handleClickFile = () => {
+    setShowHelp(false);
+    setShowEdit(false);
+    setShowFile(!showFile);
+  };
 
   const [showHelp, setShowHelp] = useState(false);
 
   const handleClickHelp = () => {
     setShowHelp(!showHelp);
-  setShowEdit(false);
-  setShowFile(false);
+    setShowEdit(false);
+    setShowFile(false);
   };
 
- const [showEdit, setShowEdit] = useState(false);
+  const [showEdit, setShowEdit] = useState(false);
 
- const handleClickEdit = () => {
-   setShowEdit(!showEdit);
-   setShowHelp(false);
-   setShowFile(false);
- };
+  const handleClickEdit = () => {
+    setShowEdit(!showEdit);
+    setShowHelp(false);
+    setShowFile(false);
+  };
 
   return (
     <div
@@ -56,7 +55,6 @@ const handleClickFile = () => {
       <div
         style={{
           marginLeft: "5%",
-          marginTop: "7.5px",
           fontWeight: "bold",
           display: "flex",
           color: "white",
@@ -108,7 +106,7 @@ const handleClickFile = () => {
         style={{
           color: "white",
           marginLeft: "19%",
-          marginTop: "10px",
+          marginTop: "8.5px",
           fontWeight: "bold",
         }}
       >
@@ -120,6 +118,6 @@ const handleClickFile = () => {
       {showEdit ? <DialogBoxEdit /> : null}
     </div>
   );
-}
+};
 
-export default TopIcons
+export default TopIcons;

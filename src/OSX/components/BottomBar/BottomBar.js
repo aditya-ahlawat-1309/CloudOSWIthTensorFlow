@@ -23,7 +23,7 @@ console.log(color);
     //background: "rgba(0, 150, 225, 0.75)",
     // background: `${color}`,
     borderRadius: "16px",
-    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.9)",
     backdropFilter: "blur(5px)",
     webkitBackdropFilter: "blur(5px)",
     border: "5px solid rgba(0, 0, 0, 0)",
@@ -34,7 +34,7 @@ console.log(color);
     width: "60%",
     height: "125px",
     /* From https://css.glass */
-    background: "rgba(0, 155, 255,1)",
+    background: "rgba(0, 0, 0, .8)",
     borderRadius: "16px",
     // boxShadow: "0 4px 30px rgba(255, 255, 255, 0.75)",
     // backdropFilter: "blur(5px)",

@@ -32,7 +32,7 @@ console.log(color);
     left: "50%",
     transform: "translate(-50%,-50%)",
     width: "60%",
-    height: "125px",
+    height: "145px",
     /* From https://css.glass */
     background: "rgba(0, 0, 0, .8)",
     borderRadius: "16px",

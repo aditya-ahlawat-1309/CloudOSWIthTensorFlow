@@ -1,14 +1,12 @@
 .dialog-container{
-
 width:80%;
 height:75%;
-
 z-index: 150;
-background-color: rgba(0, 0, 0, .8);
+background-color: rgba(237, 235, 228, 1);
 text-align: center;
-
+border: 5px solid rgba(0, 0, 0, 1);
 position: fixed;
-        top: 45%;
-        left: 50%;
-        transform:translate(-50%,-50%);
+top: 45%;
+left: 50%;
+transform:translate(-50%,-50%);
 }

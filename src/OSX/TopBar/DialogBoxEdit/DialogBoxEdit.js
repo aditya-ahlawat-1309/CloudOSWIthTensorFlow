@@ -16,17 +16,17 @@ const [color,setColor] = useState("#0096ff");
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(0, 0, 0, 0.8)",
+        background: "rgba(237, 235, 228, 0.9)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",
-        border: "5px solid rgba(0, 0, 0, 0)",
+        border: "5px solid rgba(0, 0, 0, 1)",
         position: "fixed",
         left: "14%",
         transform: "translate(-35%,40%)",
         width: "15%",
         height: "100px",
-        color: "white",
+        color: "#000",
         boxShadow: "10px 4px 30px #0000",
       }}
     >

@@ -36,22 +36,22 @@ const restore = () => {
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(0, 0, 0, 0.8)",
+        background: "rgba(237, 235, 228, 0.9)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",
-        border: "5px solid rgba(0, 0, 0, 0)",
+        border: "5px solid rgba(0, 0, 0, 1)",
         position: "fixed",
         left: "14%",
         transform: "translate(-35%,25%)",
         width: "15%",
         height: "190px",
-        color: "white",
+        color: "#000",
       }}
     >
       <button
         style={{
-          color: "white",
+          color: "#000",
           background: "none",
           border: "none",
           cursor: "pointer",
@@ -66,7 +66,7 @@ const restore = () => {
       <br />
       <button
         style={{
-          color: "white",
+          color: "#000",
           background: "none",
           border: "none",
           cursor: "pointer",
@@ -79,7 +79,7 @@ const restore = () => {
       <br />
       <button
         style={{
-          color: "white",
+          color: "#000",
           background: "none",
           border: "none",
           cursor: "pointer",
@@ -92,7 +92,7 @@ const restore = () => {
       <br />
       <button
         style={{
-          color: "white",
+          color: "#000",
           background: "none",
           border: "none",
           cursor: "pointer",
@@ -105,7 +105,7 @@ const restore = () => {
       <br />
       <button
         style={{
-          color: "white",
+          color: "#000",
           background: "none",
           border: "none",
           cursor: "pointer",

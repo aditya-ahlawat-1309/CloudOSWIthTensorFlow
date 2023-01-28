@@ -20,7 +20,7 @@ var date = new Date().toLocaleString();
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(0, 0, 0, 1)",
+        background: "rgba(252, 246, 244, 1)",
         position: "fixed",
         top: "0%",
         width: "100%",
@@ -31,16 +31,15 @@ var date = new Date().toLocaleString();
         //   "https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" +
         //   ")",
         backgroundRepeat: "repeat",
-        color: "white",
+        color: "black",
       }}
     >
       <TopIcons />
       <div
-        style={{ marginTop: "-1.25%", marginLeft: "91.5%", fontWeight: "bold" }}
+        style={{ marginTop: "-1.5%", marginLeft: "91.5%", fontWeight: "bold" }}
       >
-        {date.substring(11)}
+      {date.substring(11)}
       </div>
-      
     </div>
   );
 }

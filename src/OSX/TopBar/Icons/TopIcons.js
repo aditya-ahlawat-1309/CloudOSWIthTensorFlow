@@ -1,43 +1,44 @@
-import React, { useState } from "react";
-import DialogBoxFile from "../DialogBoxFile/DialogBoxFile";
+import React, {useState} from 'react'
+import DialogBoxFile from '../DialogBoxFile/DialogBoxFile';
 import DialogBoxHelp from "../DialogBoxHelp/DialogBoxHelp";
 import DialogBoxEdit from "../DialogBoxEdit/DialogBoxEdit";
 
 const TopIcons = () => {
-  const [showFile, setShowFile] = useState(false);
 
-  const handleClickFile = () => {
-    setShowHelp(false);
-    setShowEdit(false);
-    setShowFile(!showFile);
-  };
+  const [showFile,setShowFile] = useState(false);
+
+const handleClickFile = () => {
+  setShowHelp(false);
+  setShowEdit(false);
+  setShowFile(!showFile);
+}
 
   const [showHelp, setShowHelp] = useState(false);
 
   const handleClickHelp = () => {
     setShowHelp(!showHelp);
-    setShowEdit(false);
-    setShowFile(false);
+  setShowEdit(false);
+  setShowFile(false);
   };
 
-  const [showEdit, setShowEdit] = useState(false);
+ const [showEdit, setShowEdit] = useState(false);
 
-  const handleClickEdit = () => {
-    setShowEdit(!showEdit);
-    setShowHelp(false);
-    setShowFile(false);
-  };
+ const handleClickEdit = () => {
+   setShowEdit(!showEdit);
+   setShowHelp(false);
+   setShowFile(false);
+ };
 
   return (
     <div
       style={{
-        color: "white",
+        color: "black",
         //backgroundColor: "black",
-        height: "35px",
+        height: "27.5px",
         display: "flex",
       }}
     >
-      <img
+      {/* <img
         // src={
         //   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonXt9NxcNDx6RraYgy2b-FAYNA_Rzm_0Ms6dAlGxsS219I24D88lILl_5gfO1bwCv7EY&usqp=CAU"
         // }
@@ -50,14 +51,14 @@ const TopIcons = () => {
           marginTop: "3.25px",
           height: "24px",
         }}
-      />
+      /> */}
 
       <div
         style={{
           marginLeft: "5%",
           fontWeight: "bold",
           display: "flex",
-          color: "white",
+          color: "black",
         }}
       >
         <button
@@ -65,7 +66,7 @@ const TopIcons = () => {
             border: "none",
             outline: "none",
             background: "none",
-            color: "white",
+            color: "black",
             fontWeight: "bold",
             cursor: "pointer",
           }}
@@ -79,7 +80,7 @@ const TopIcons = () => {
             border: "none",
             outline: "none",
             background: "none",
-            color: "white",
+            color: "black",
             fontWeight: "bold",
             cursor: "pointer",
           }}
@@ -94,7 +95,7 @@ const TopIcons = () => {
             border: "none",
             outline: "none",
             background: "none",
-            color: "white",
+            color: "black",
             cursor: "pointer",
           }}
           onClick={() => handleClickHelp()}
@@ -104,20 +105,20 @@ const TopIcons = () => {
       </div>
       <div
         style={{
-          color: "white",
-          marginLeft: "19%",
-          marginTop: "8.5px",
+          color: "black",
+          marginLeft: "25%",
+          marginTop: "3px",
           fontWeight: "bold",
         }}
       >
-        A P P L E &nbsp;&nbsp;C L O U D&nbsp;&nbsp; O S &nbsp;&nbsp;P R O T O T
-        Y P E
+       C L O U D&nbsp;&nbsp; O S
+        &nbsp;&nbsp;P R O T O T Y P E
       </div>
       {showFile ? <DialogBoxFile /> : null}
       {showHelp ? <DialogBoxHelp /> : null}
       {showEdit ? <DialogBoxEdit /> : null}
     </div>
   );
-};
+}
 
-export default TopIcons;
+export default TopIcons

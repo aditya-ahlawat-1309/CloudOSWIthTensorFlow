@@ -3,7 +3,7 @@ import "./DialogBox.css"
 const DialogBox = () => {
   return (
     <div class="dialog-container">
-      <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "3%" }}>
+      <h1 style={{ color: "#000", textAlign: "center", marginTop: "3%" }}>
         S Y S T E M - A P P S
       </h1>
       <div>
@@ -29,7 +29,7 @@ const DialogBox = () => {
               marginLeft: "-42.5%",
               marginTop: "13%",
               position: "absolute",
-              color: "white",
+              color: "#000",
             }}
           >
             Random Quote <br />
@@ -62,7 +62,7 @@ const DialogBox = () => {
               marginLeft: "-29%",
               marginTop: "12%",
               position: "absolute",
-              color: "white",
+              color: "#000",
             }}
           >
             Weather App <br />
@@ -94,7 +94,7 @@ const DialogBox = () => {
               marginLeft: "-16%",
               marginTop: "10.5%",
               position: "absolute",
-              color: "white",
+              color: "#000",
             }}
           >
             Music App <br />
@@ -129,7 +129,7 @@ const DialogBox = () => {
               marginLeft: "-4%",
               marginTop: "9%",
               position: "absolute",
-              color: "white",
+              color: "#000",
             }}
           >
             Github Link

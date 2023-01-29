@@ -198,7 +198,7 @@ console.log(color);
                     height="60px"
                     style={{
                       borderRadius: "15%",
-                      marginLeft: "-90%",
+                      marginLeft: "-85%",
                       marginTop: "25%",
                       position: "absolute",
                     }}
@@ -215,7 +215,7 @@ console.log(color);
                       height="60px"
                       style={{
                         borderRadius: "15%",
-                        marginLeft: "-65%",
+                        marginLeft: "-60%",
                         marginTop: "25%",
                         position: "absolute",
                       }}

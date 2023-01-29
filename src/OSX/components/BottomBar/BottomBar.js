@@ -93,7 +93,7 @@ console.log(color);
                   textAlign: "center",
                   border: "5px solid rgba(0, 0, 0, 1)",
                   position: "absolute",
-                  top: "-500%",
+                  top: "-425%",
                   left: "50%",
                   transform: "translate(-50%,-50%)",
                   display: "flex",

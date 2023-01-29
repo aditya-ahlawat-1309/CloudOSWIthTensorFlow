@@ -33,6 +33,7 @@ var date = new Date().toLocaleString();
         backgroundRepeat: "repeat",
         color: "black",
       }}
+      className="display-small-screen"
     >
       <TopIcons />
       <div

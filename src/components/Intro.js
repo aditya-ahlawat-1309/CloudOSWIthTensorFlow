@@ -7,7 +7,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import Obj from './ObjectDetection/Obj';
-
+import "../App.css"
 
 const Box = styled(motion.div)`
 position: absolute;

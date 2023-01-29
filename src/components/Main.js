@@ -11,7 +11,7 @@ import AboutPage from './AboutPage';
 import { Bar } from '../OSX/TopBar/TopBar/Bar';
 
 import { BGContext } from '../Context';
-
+import "../App.css"
 const MainContainer = styled.div`
 background: ${props => props.theme.text};
 width:100vw;
@@ -102,14 +102,14 @@ const Main = () => {
         style={{ position: "absolute" }}
       />
       
-      <Bar />
+      <Bar className="display-small-screen"/>
       <MainContainer>
        
 
-        <Container>
+        <Container className='display-small-screen'>
 
 
-          <LogoComponent theme={click ? "light" : "dark"} />
+          {/* <LogoComponent theme={click ? "light" : "dark"} /> */}
           <SocialIcons theme={click ? "light" : "dark"} />
 
           <Center click={click}>

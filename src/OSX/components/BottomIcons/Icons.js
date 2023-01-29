@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Icons.css"
 import DialogBox from "../DialogBox/DialogBox";
-
+import "../../../App.css"
 const Icons = () => {
 
   const [show, setShow] = useState(false);
@@ -27,128 +27,7 @@ const Icons = () => {
             transform: "translate(-50%,-50%)",
           }}
         >
-          {/*  //  <a
-        //   style={{
-        //     backgroundColor: "Transparent",
-        //     border: "none",
-        //     cursor: "pointer",
-        //     outline: "none",
-        //     color: "red",
-        //     textDecoration: "none",
-        //     fontWeight: "bold",
-        //     marginRight: "1.5%",
-        //   }}
-        //   // href="/finder"
-        // >
-        //   <div style={{ flexDirection: "column" }}>
-        //     <img
-        //       src={finder}
-        //       width="75px"
-        //       height="75px"
-        //       style={{ borderRadius: "15px", boxShadow: "0 0 10px #000" }}
-        //       class="Icons-animation"
-        //     />
-
-        //     <p> All Files</p>
-        //   </div>
-        // </a>
-        // &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        // <button
-        //   style={{
-        //     backgroundColor: "Transparent",
-        //     border: "none",
-        //     cursor: "pointer",
-        //     outline: "none",
-        //     color: "red",
-        //     textDecoration: "none",
-        //     fontWeight: "bold",
-        //     marginRight: "1.5%",
-        //   }}
-        // >
-        //   <div style={{ flexDirection: "column" }}>
-        //     <img
-        //       src={images}
-        //       width="75px"
-        //       height="75px"
-        //       style={{ borderRadius: "15px", boxShadow: "0 0 10px #000" }}
-        //       class="Icons-animation"
-        //     />
-        //     <p> &nbsp;&nbsp; Gallery</p>
-        //   </div>
-        // </button>
-        // &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        // <button
-        //   style={{
-        //     backgroundColor: "Transparent",
-        //     border: "none",
-        //     cursor: "pointer",
-        //     outline: "none",
-        //     color: "red",
-        //     textDecoration: "none",
-        //     fontWeight: "bold",
-        //     marginRight: "1.5%",
-        //   }}
-        // >
-        //   <div style={{ flexDirection: "column" }}>
-        //     <img
-        //       src={projects}
-        //       width="75px"
-        //       height="75px"
-        //       style={{ borderRadius: "15px", boxShadow: "0 0 10px #000" }}
-        //       class="Icons-animation"
-        //     />
-        //     <p> &nbsp;&nbsp; Projects</p>
-        //   </div>
-        // </button>
-        // &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        // <button
-        //   style={{
-        //     backgroundColor: "Transparent",
-        //     border: "none",
-        //     cursor: "pointer",
-        //     outline: "none",
-        //     color: "red",
-        //     textDecoration: "none",
-        //     fontWeight: "bold",
-        //     marginRight: "1.5%",
-        //   }}
-        // >
-        //   <div style={{ flexDirection: "column" }}>
-        //     <img
-        //       src={Dictionary}
-        //       width="75px"
-        //       height="75px"
-        //       style={{ borderRadius: "15px", boxShadow: "0 0 10px #000" }}
-        //       class="Icons-animation"
-        //     />
-        //     <p> Dictionary</p>
-        //   </div>
-        // </button>
-        // &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        // <button
-        //   style={{
-        //     backgroundColor: "Transparent",
-        //     border: "none",
-        //     cursor: "pointer",
-        //     outline: "none",
-        //     color: "red",
-        //     textDecoration: "none",
-        //     fontWeight: "bold",
-        //     marginRight: "1.5%",
-        //   }}
-        // >
-        //   <div style={{ flexDirection: "column" }}>
-        //     <img
-        //       src={Passlock}
-        //       width="75px"
-        //       height="75px"
-        //       style={{ borderRadius: "15px", boxShadow: "0 0 10px #000" }}
-        //       class="Icons-animation"
-        //     />
-        //     <p> &nbsp;&nbsp;Passlock</p>
-        //   </div>
-        // </button> 
-        //  */}
+         
           <a
             style={{
               backgroundColor: "Transparent",

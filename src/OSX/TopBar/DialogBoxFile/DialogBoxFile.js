@@ -36,7 +36,7 @@ const restore = () => {
       style={{
         zIndex: 6,
         position: "absolute",
-        background: "rgba(237, 235, 228, 0.9)",
+        background: "rgba(237, 235, 228, 1)",
         borderRadius: "16px",
         backdropFilter: "blur(5px)",
         webkitBackdropFilter: "blur(5px)",

@@ -72,7 +72,7 @@ const handleClickFile = () => {
           }}
           onClick={() => handleClickFile()}
         >
-          F i l e
+          File
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button
@@ -86,7 +86,7 @@ const handleClickFile = () => {
           }}
           onClick={() => handleClickEdit()}
         >
-          E d i t
+          Edit
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button
@@ -100,7 +100,7 @@ const handleClickFile = () => {
           }}
           onClick={() => handleClickHelp()}
         >
-          H e l p
+          Help
         </button>
       </div>
       <div
@@ -111,8 +111,8 @@ const handleClickFile = () => {
           fontWeight: "bold",
         }}
       >
-       C L O U D&nbsp;&nbsp; O S
-        &nbsp;&nbsp;P R O T O T Y P E
+       CLOUD&nbsp;&nbsp; OS
+        &nbsp;&nbsp;PROTOTYPE
       </div>
       {showFile ? <DialogBoxFile /> : null}
       {showHelp ? <DialogBoxHelp /> : null}

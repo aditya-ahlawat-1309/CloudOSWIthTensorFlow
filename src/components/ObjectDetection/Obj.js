@@ -121,6 +121,10 @@ function Obj() {
   }, []);
 
   return (
+    <>
+    {
+      window.innerWidth > 500 ?
+    (<div className="display-small-screen">
     <div className="App">
       <Webcam
         ref={webcamRef}
@@ -156,6 +160,9 @@ function Obj() {
         }}
       />
     </div>
+    </div>
+  ):("")}
+  </>
   );
 }
 

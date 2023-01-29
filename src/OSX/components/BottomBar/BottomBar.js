@@ -56,7 +56,7 @@ console.log(color);
     left: "50%",
     transform: "translate(-50%,-50%)",
     width: "90%",
-    height: "8%",
+    height: "10%",
     background: "rgba(237, 235, 228, 1)",
     borderRadius: "16px",
   };
